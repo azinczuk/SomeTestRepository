@@ -9,8 +9,8 @@ public class SomeObj {
 		this.someObjName = someObjName;
 		this.someObjSecondName = someObjSecondName;
 	}
-	
-	public String toString(){
-		return "someObjName:" + someObjName +" someObjSecondName:"+someObjSecondName;
+
+	public String toString() {
+		return "someObjName:" + someObjName + " someObjSecondName:" + someObjSecondName;
 	}
 }
