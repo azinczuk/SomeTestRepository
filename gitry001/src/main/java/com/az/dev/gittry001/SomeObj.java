@@ -7,5 +7,4 @@ public class SomeObj {
 	public SomeObj(String someObjName) {
 		this.someObjName = someObjName;
 	}
-
 }
