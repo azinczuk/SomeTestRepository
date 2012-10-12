@@ -3,9 +3,42 @@
 	<groupId>com.az.dev</groupId>
 	<artifactId>gitry002</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
+		
+		 <mockito.version>1.9.5-rc1</mockito.version>
 	</properties>
+	
+	<dependencies>
+		<!-- JUNIT DEPENDENCY FOR TESTING -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>pl.pragmatists</groupId>
+            <artifactId>JUnitParams</artifactId>
+            <version>0.5.0</version>
+            <scope>test</scope>
+        </dependency>
+        
+          <!-- MOCKITO DEPENDENCY FOR TESTING -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.easytesting</groupId>
+            <artifactId>fest-assert</artifactId>
+            <version>1.4</version>
+            <scope>test</scope>
+        </dependency>
+	</dependencies>
 </project>
